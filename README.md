@@ -58,7 +58,7 @@ ClientId="Your-Client-Id"
 ```
 Once the user has logged in, the information will be stored in the usercredential variable.  
     
-You can display the user information by calling the variable properties. 
+You can display the user information by calling the variable's properties. 
 ```razor        
 @if (usercredential.IsLogged)
 {
