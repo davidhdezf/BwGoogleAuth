@@ -19,7 +19,6 @@
 
   <ItemGroup>
     <Content Include="Credential.cs" />
-	  <None Include="wwwroot\JsInterop.js" />
   </ItemGroup>
 
 

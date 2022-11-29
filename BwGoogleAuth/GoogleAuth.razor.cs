@@ -7,7 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Use the dotnet pack command rather than the NuGet.exe version nuget pack. To ship the static assets
 
+//https://learn.microsoft.com/en-us/aspnet/core/razor-pages/ui-class?view=aspnetcore-3.1&tabs=visual-studio#consume-content-from-a-referenced-rcl
 
 namespace BwGoogleAuth
 {
