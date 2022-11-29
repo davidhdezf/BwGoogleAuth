@@ -7,6 +7,11 @@
     <Authors>davidhdezf</Authors>
     <Description>A simple Blazor component to authenticate using Google Credentials. </Description>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+
+	 
+		  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	
+
   </PropertyGroup>
 
   <ItemGroup>
