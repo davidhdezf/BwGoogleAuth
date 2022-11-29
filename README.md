@@ -25,11 +25,13 @@ The component is distributed as a [BwGoogleAuth nuget package](https://www.nuget
 - Install the package from command line by running `dotnet add package BwGoogleAuth`
 - Add the project from the Visual Nuget Package Manager
 
+Latest version is 1.0.1
+
 ### 2. Import the namespace
 
 Open the `_Imports.razor` file of your Blazor application and add this line `@using BwGoogleAuth`.
 
-### 4. Include Javascript Files
+### 3. Include Javascript Files
 
 Open  `wwwroot/index.html` (Blazor WebAssembly) and include this snippet before the blazor.webassembly.js <script>: 
 
@@ -37,4 +39,23 @@ Open  `wwwroot/index.html` (Blazor WebAssembly) and include this snippet before 
     <script src="https://accounts.google.com/gsi/client"></script>
     <script src="_content/BwGoogleAuth/JsInterop.js"></script>
 ```
+### 4. Use the component
 
+Open the `Index.razor` file and define the next variable
+    
+```razor
+@code{
+    public Credential usercredential= new Credential();
+}
+```
+Add the GoogleAuth component, bind it to the variable and add your Google Client Id. Set the Hide parameter to true to hide the button once the user has logged in.
+```razor    
+<GoogleAuth
+Hide=true
+ClientId="Your-Client-Id"
+@bind-UserCredential=@usercredential
+/>
+```
+Once the user has logged in. The information will be stored in the usercredential variable.     
+
+    
