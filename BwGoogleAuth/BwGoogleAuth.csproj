@@ -10,12 +10,16 @@
 
 	 
 		  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+	 
+		  <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
 	
 
   </PropertyGroup>
 
   <ItemGroup>
     <Content Include="Credential.cs" />
+	  <None Include="wwwroot\JsInterop.js" />
   </ItemGroup>
 
 
@@ -28,10 +32,6 @@
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.25.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Content Update="wwwroot\JsInterop.js">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
+  
 
 </Project>
