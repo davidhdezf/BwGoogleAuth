@@ -56,7 +56,7 @@ ClientId="Your-Client-Id"
 @bind-UserCredential=@usercredential
 />
 ```
-Once the user has logged in. The information will be stored in the usercredential variable.  
+Once the user has logged in, he information will be stored in the usercredential variable.  
     
 You can display the user information by calling the variable properties. 
 ```razor        
