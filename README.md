@@ -20,4 +20,21 @@ https://developers.google.com/identity/gsi/web/guides/get-google-api-clientid
 
 # Use the component
 
+### 1. Install
+The component is distributed as a [BwGoogleAuth nuget package](https://www.nuget.org/packages/BwGoogleAuth). You can add them to your project in one of the following ways
+- Install the package from command line by running `dotnet add package BwGoogleAuth`
+- Add the project from the Visual Nuget Package Manager
+
+### 2. Import the namespace
+
+Open the `_Imports.razor` file of your Blazor application and add this line `@using BwGoogleAuth`.
+
+### 4. Include Javascript Files
+
+Open  `wwwroot/index.html` (Blazor WebAssembly) and include this snippet before the blazor.webassembly.js <script>: 
+
+```html
+    <script src="https://accounts.google.com/gsi/client"></script>
+    <script src="_content/BwGoogleAuth/JsInterop.js"></script>
+```
 
