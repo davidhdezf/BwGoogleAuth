@@ -1,0 +1,34 @@
+﻿@page "/"
+
+
+@using BwGoogleAuth
+
+<GoogleAuth
+Hide=true
+ClientId="982043305759-g7mult0ibfraru4fets8jcja6u1h0vbj.apps.googleusercontent.com"
+@bind-UserCredential=@usercredential
+/>
+
+@if (usercredential.IsLogged)
+{
+    
+
+    <div>
+    <ul>
+      <li>Name:@usercredential.Name</li>
+      <li>Email:@usercredential.Email</li>
+      <li>User Id:@usercredential.UserId</li>
+
+    </ul>  
+    </div>
+
+}
+
+
+@code{
+
+
+    public Credential usercredential= new Credential();
+
+
+}

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BwGoogleAuth", "BwGoogleAuth\BwGoogleAuth.csproj", "{B514E7AB-84AD-4374-A5F4-ED84AF7794DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BwGoogleAuthSample", "BwGoogleAuthSample\BwGoogleAuthSample.csproj", "{CDAA89D1-865C-497C-B367-33B8154A5E6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B514E7AB-84AD-4374-A5F4-ED84AF7794DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B514E7AB-84AD-4374-A5F4-ED84AF7794DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B514E7AB-84AD-4374-A5F4-ED84AF7794DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B514E7AB-84AD-4374-A5F4-ED84AF7794DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDAA89D1-865C-497C-B367-33B8154A5E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDAA89D1-865C-497C-B367-33B8154A5E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDAA89D1-865C-497C-B367-33B8154A5E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDAA89D1-865C-497C-B367-33B8154A5E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F56541FC-B7CC-40E5-AAF1-529C12A864C2}
+	EndGlobalSection
+EndGlobal
