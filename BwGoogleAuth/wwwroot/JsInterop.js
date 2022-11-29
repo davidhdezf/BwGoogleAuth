@@ -36,4 +36,3 @@ bwjs.initGoogle = function (dotNetObjectRef,clientid) {
 
 
 
-//secret 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
