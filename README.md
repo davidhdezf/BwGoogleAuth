@@ -9,3 +9,15 @@ Once the user has logged in, the credentials will be retrieved in a credential c
 
 ![image](https://user-images.githubusercontent.com/21249323/204427187-031136e7-3ba0-4c24-bfa3-39180298b85a.png)
 
+# Prerequisites
+
+1. Have a Google API Client id
+2. Include your site's domain in the Authorized JavaScript origins box
+
+You can follow the next instructions.
+
+https://developers.google.com/identity/gsi/web/guides/get-google-api-clientid
+
+# Use the component
+
+
